@@ -2,13 +2,12 @@ name: data-analyst-mayo-2026
 channels:
   - conda-forge
 dependencies:
-  - python>=3.12
-  - jupyterlab
-  - notebook
+  - python=3.11
   - numpy
   - pandas
   - matplotlib
   - scikit-learn
   - statsmodels
-  - plotly
-  - seaborn
+  - jupyterlab
+  - notebook
+  - pip

@@ -1,38 +1,42 @@
-# Material actualizado · Data Analyst con Python · Mayo 2026
+# Data Analyst — Sesiones de mayo de 2026
 
-Este paquete acompaña la planificación de mayo de 2026 y transforma los cinco bloques del módulo en documentación práctica y notebooks Jupyter ejecutables.
+Este paquete contiene notebooks Jupyter ampliados para sesiones de 3 horas.
 
 ## Estructura
 
-- `docs/`: documentación docente, guía de instalación, rúbricas y planificación por bloques.
-- `notebooks/`: cuadernos Jupyter para cada bloque y proyecto final.
-- `datasets/`: datasets sintéticos para prácticas reproducibles.
-- `requirements.txt` y `environment.yml`: entorno recomendado.
+- `notebooks/`: notebooks por bloque.
+- `data/`: datasets sintéticos reproducibles para las prácticas.
+- `docs/`: guía rápida y propuesta de uso docente.
+- `requirements.txt`: librerías necesarias.
+- `environment.yml`: entorno conda recomendado.
 
-## Bloques
+## Bloques incluidos
 
-1. Iniciación en análisis de datos con Python.
-2. Modelos de regresión en Machine Learning.
-3. Modelos de clasificación en Machine Learning.
-4. Modelos de clustering.
-5. Series temporales.
-6. Proyecto final integrador.
+1. Python, pandas y análisis descriptivo.
+2. Regresión y comparación de modelos.
+3. Clasificación, matriz de confusión y ROC.
+4. Clustering, silhouette y PCA.
+5. Series temporales y forecasting.
 
 ## Uso recomendado
 
 ```bash
-python -m venv .venv
-.venv\Scripts\activate  # Windows
-pip install -r requirements.txt
+conda env create -f environment.yml
+conda activate data-analyst-mayo-2026
 jupyter lab
 ```
 
-En Linux/Mac:
+También puede usarse con:
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
 pip install -r requirements.txt
 jupyter lab
 ```
 
+## Metodología
+
+Cada notebook está diseñado para una sesión de 3 horas:
+- explicación conceptual,
+- demostración guiada,
+- práctica individual,
+- cierre con conclusiones.
